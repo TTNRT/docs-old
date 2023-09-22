@@ -1,0 +1,5 @@
+docs_list_title: Example Title
+docs:
+
+- title: Example Page
+  url: example-page.html

@@ -1,0 +1,13 @@
+title: Test docs
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+highlighter: rouge
+
+exclude:
+  - README.md
+  - .gitignore
+
