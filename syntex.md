@@ -1,6 +1,7 @@
 ---
 title: Syntex
 layout: default
+toc: true
 ---
 
 A quick walkthrough on our page making
