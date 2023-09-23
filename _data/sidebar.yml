@@ -1,5 +1,7 @@
-docs_list_title: Example Title
+docs_list_title: Page 1
 docs:
 
 - title: Example Page
   url: example-page.html
+- title: Syntex
+  url: syntex.html  
