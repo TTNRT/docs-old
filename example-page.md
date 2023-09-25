@@ -99,3 +99,6 @@ Paragraph 3
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 
+<br>
+
+{% include warning.html class="primary" message="<h4>Example alert</h4>" icon="bi bi-info-circle-fill flex-shrink-0 me-2"%}

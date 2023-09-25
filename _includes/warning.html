@@ -1,0 +1,8 @@
+<div class="{{ include.class | default: 'warning' | prepend: 'alert alert-' }} d-flex align-items-center container" role="alert">
+{% if include.title %}
+<h1>{{ include.title }}</h1>
+<hr>
+{% endif %}
+{{ include.icon }}
+{{ include.message }}
+</div>
