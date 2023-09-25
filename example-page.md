@@ -101,4 +101,4 @@ Paragraph 3
 
 <br>
 
-{% include warning.html class="primary" message="<h4>Example alert</h4>" icon="bi bi-info-circle-fill flex-shrink-0 me-2"%}
+{% include warning.html class="primary" message="<h4>Example alert</h4>" icon="<i class="bi bi-info-circle-fill flex-shrink-0 me-2"></i>" %}
