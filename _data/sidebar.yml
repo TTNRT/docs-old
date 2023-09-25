@@ -3,5 +3,7 @@ docs:
 
 - title: Example Page
   url: example-page.html
-- title: Syntex
-  url: syntex.html  
+- title: Syntax Layout
+  url: syntax.html
+- title: Contributions
+  url: contributions.html

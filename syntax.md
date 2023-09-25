@@ -1,5 +1,5 @@
 ---
-title: Syntex
+title: Syntax Layout
 layout: default
 toc: true
 ---
