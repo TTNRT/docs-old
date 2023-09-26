@@ -1,6 +1,13 @@
-<script>
-var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+<div id="test-editor">
+    <textarea style="display:none;">
+    </textarea>
+</div>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("test-editor", {
+            // width  : "100%",
+            // height : "100%",
+            path   : "editormd/lib/"
+        });
+    });
 </script>
-<textarea id="MyID"></textarea>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
-<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
