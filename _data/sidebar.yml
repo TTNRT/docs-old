@@ -7,3 +7,5 @@ docs:
   url: syntax.html
 - title: Contributions
   url: contributions.html
+- title: Markdown Editor
+  url: editor.html  

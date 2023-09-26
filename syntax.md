@@ -1,7 +1,6 @@
 ---
 title: Syntax Layout
 layout: default
-toc: true
 ---
 
 A quick walkthrough on our page making

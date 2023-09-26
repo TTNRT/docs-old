@@ -6,20 +6,7 @@
 <body>
 {% include nav.html %}
 <div class="container">
-<div class="row">
-<div class="col">
-<div class="card">
-<div class="card-header">
-{{ site.data.sidebar.docs_list_title }}
-</div>
-<div class="list-group list-group-flush">
-{% for item in site.data.sidebar.docs %}
-<a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
-{% endfor %}    
-</div>
-</div>
-</div>
-</div>
+{% include sidebar.html %}
 </div>
 </body>
 </html>

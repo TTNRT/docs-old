@@ -3,3 +3,34 @@
 {% else %}
 <a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
 {% endif %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"></script>
+<script>
+anchors.add('h2,h3,h4,h5,h6');
+</script>
+
+<div class="card">
+<div class="card-header">
+{{ site.data.sidebar.docs_list_title }}
+</div>
+<div class="list-group list-group-flush">
+{% for item in site.data.sidebar.docs %}
+<a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
+{% endfor %}    
+</div>
+</div>
+
+<div id="sidebar">
+<h1>
+{{ site.data.sidebar.docs_list_title }}
+</h1>
+<ul>
+{% for item in site.data.sidebar.docs %}
+<li><a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a></li>
+{% endfor %}    
+</ul>
+</div>
+
+<div id="table-of-content">
+{{ content | toc_only }}
+</div>
