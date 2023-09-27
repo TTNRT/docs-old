@@ -9,9 +9,6 @@ layout: default
 ##### header 5
 ###### header 6
 
-<details>
-<summary>Code</summary>
-
 ```
 ## header 2
 ### header 3
@@ -20,7 +17,6 @@ layout: default
 ###### header 6
 ```
 
-</details>
 
 <br>
 
@@ -30,9 +26,6 @@ Paragraph 2
 
 Paragraph 3
 
-<details>
-<summary>Code</summary>
-
 ```
 Paragraph 1
 
@@ -41,8 +34,6 @@ Paragraph 2
 Paragraph 3
 ```
 
-</details>
-
 <br>
 
 *Side text 1*
@@ -51,9 +42,6 @@ Paragraph 3
 
 *Side text 3*
 
-<details>
-<summary>Code</summary>
-
 ```
 *Side text 1*
 
@@ -61,8 +49,6 @@ Paragraph 3
 
 *Side text 3*
 ```
-
-</details>
 
 <br>
 
@@ -72,9 +58,6 @@ Paragraph 3
 
 **Bold text 3**
 
-<details>
-<summary>Code</summary>
-
 ```
 **Bold text 1**
 
@@ -83,8 +66,6 @@ Paragraph 3
 **Bold text 3**
 ```
 
-</details>
-
 <br>
 
 ~~Crossed out text 1~~
@@ -93,9 +74,6 @@ Paragraph 3
 
 ~~Crossed out text 3~~
 
-<details>
-<summary>Code</summary>
-
 ```
 ~~Crossed out text 1~~
 
@@ -103,8 +81,6 @@ Paragraph 3
 
 ~~Crossed out text 3~~
 ```
-
-</details>
 
 <br>
 
@@ -114,9 +90,6 @@ Paragraph 3
 
 `Inline code 3`
 
-<details>
-<summary>Code</summary>
-
 ```
 `Inline code 1`
 
@@ -125,8 +98,6 @@ Paragraph 3
 `Inline code 3`
 ```
 
-</details>
-
 <br>
 
 > Quote 1
@@ -135,9 +106,6 @@ Paragraph 3
 
 > Quote 3
 
-<details>
-<summary>Code</summary>
-
 ```
 > Quote 1
 
@@ -145,8 +113,6 @@ Paragraph 3
 
 > Quote 3
 ```
-
-</details>
 
 <br>
 
@@ -156,9 +122,6 @@ Paragraph 3
 
 - [ ] Check 3
 
-<details>
-<summary>Code</summary>
-
 ```
 - [ ] Check 1
 
@@ -167,8 +130,6 @@ Paragraph 3
 - [ ] Check 3
 ```
 
-</details>
-
 <br>
 
 - [x] Checked 1
@@ -177,9 +138,6 @@ Paragraph 3
 
 - [x] Checked 3
 
-<details>
-<summary>Code</summary>
-
 ```
 - [x] Checked 1
 
@@ -187,8 +145,6 @@ Paragraph 3
 
 - [x] Checked 3
 ```
-
-</details>
 
 <br>
 
@@ -198,9 +154,6 @@ Paragraph 3
 
 * Point 3
 
-<details>
-<summary>Code</summary>
-
 ```
 * Point 1
 
@@ -208,8 +161,6 @@ Paragraph 3
 
 * Point 3
 ```
-
-</details>
 
 <br>
 
@@ -221,9 +172,6 @@ Paragraph 3
 
 <br>
 
-<details>
-<summary>Code</summary>
-
 ```
 1. Number one
 
@@ -232,20 +180,13 @@ Paragraph 3
 3. Number three
 ```
 
-</details>
-
 <br>
 
 [Example link](https://example.com)
 
-<details>
-<summary>Code</summary>
-
 ```
 [Example link](https://example.com)
 ```
-
-</details>
 
 <br>
 
@@ -255,24 +196,16 @@ Paragraph 3
 
 <br>
 
-<details>
-<summary>Code</summary>
-
 ```
 | Column 1 | Column 2 | Column 3 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 ```
-</details>
 
 <br>
 
 {% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}
 
-<details>
-<summary>Code</summary>
-
 ```
 {% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}
 ```
-</details>
