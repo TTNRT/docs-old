@@ -9,15 +9,13 @@ layout: default
 ##### header 5
 ###### header 6
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 ## header 2
 ### header 3
 #### header 4
 ##### header 5
 ###### header 6
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -27,15 +25,13 @@ Paragraph 2
 
 Paragraph 3
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 Paragraph 1
 
 Paragraph 2
 
 Paragraph 3
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -45,15 +41,13 @@ Paragraph 3
 
 *Side text 3*
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 *Side text 1*
 
 *Side text 2*
 
 *Side text 3*
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -63,15 +57,13 @@ Paragraph 3
 
 **Bold text 3**
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 **Bold text 1**
 
 **Bold text 2**
 
 **Bold text 3**
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -81,15 +73,13 @@ Paragraph 3
 
 ~~Crossed out text 3~~
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 ~~Crossed out text 1~~
 
 ~~Crossed out text 2~~
 
 ~~Crossed out text 3~~
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -108,15 +98,13 @@ Paragraph 3
 
 > Quote 3
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 > Quote 1
 
 > Quote 2
 
 > Quote 3
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -126,15 +114,13 @@ Paragraph 3
 
 - [ ] Check 3
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 - [ ] Check 1
 
 - [ ] Check 2
 
 - [ ] Check 3
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -144,15 +130,13 @@ Paragraph 3
 
 - [x] Checked 3
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 - [x] Checked 1
 
 - [x] Checked 2
 
 - [x] Checked 3
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -162,15 +146,13 @@ Paragraph 3
 
 * Point 3
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 * Point 1
 
 * Point 2
 
 * Point 3
-</code>
-</pre>
+</textarea>
 
 <br>
 
@@ -180,27 +162,20 @@ Paragraph 3
 
 3. Number three
 
-<br>
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 1. Number one
 
 2. Number two
 
 3. Number three
-</code>
-</pre>
+</textarea>
 
 <br>
 
 [Example link](https://example.com)
 
-<pre>
-<code>
-[Example link](https://example.com)
-</code>
-</pre>
+<textarea style="width: 100%;">[Example link](https://example.com)</textarea>
 
 <br>
 
@@ -208,18 +183,14 @@ Paragraph 3
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 
-<br>
 
-<pre>
-<code>
+<textarea style="width: 100%;">
 | Column 1 | Column 2 | Column 3 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
-</code>
-</pre>
+</textarea>
 
 <br>
 
 {% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}
 
-<pre><code>{% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}</code></pre>
