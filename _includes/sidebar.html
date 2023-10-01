@@ -1,10 +1,12 @@
-<div class="card">
-<div class="card-header">
-{{ site.data.sidebar.docs_list_title }}
-</div>
-<div class="list-group list-group-flush">
+<div class="d-flex flex-column">
+<h3>{{ site.data.sidebar.docs_list_title }}</h3>
+<ul class="nav mb-sm-auto" id="menu">
+<li class="nav-item">
 {% for item in site.data.sidebar.docs %}
-<a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
-{% endfor %}    
-</div>
+<a href="{{ item.url }}" class="nav-link">
+{{ item.title }}
+</a>
+{% endfor %}  
+</li>
+</ul>
 </div>
