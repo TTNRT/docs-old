@@ -13,3 +13,6 @@ exclude:
   - README.md
   - .gitignore
 
+last-modified-at:
+    date-format: '%b %e, %l:%M %p'
+
