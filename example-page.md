@@ -33,11 +33,11 @@ Normal Paragrpah
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 
-{% include warning.html class="primary" message="Example alert" icon="bi-info-circle-fill" %}
+{% include warning.html class="primary" message="Example alert" icon="info-circle-fill" %}
 
-{% include warning.html class="success" message="Example alert" icon="bi-check-circle-fill" %}
+{% include warning.html class="success" message="Example alert" icon="check-circle-fill" %}
 
-{% include warning.html class="warning" message="Example alert" icon="bi-exclamation-triangle-fill" %}
+{% include warning.html class="warning" message="Example alert" icon="exclamation-triangle-fill" %}
 
-{% include warning.html class="danger" message="Example alert" icon="bi-exclamation-circle-fill" %}
+{% include warning.html class="danger" message="Example alert" icon="exclamation-circle-fill" %}
 
