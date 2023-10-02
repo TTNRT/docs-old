@@ -5,57 +5,39 @@ layout: default
 
 Normal Paragrpah
 
-<br>
+<i>Side text</i>
 
-*Side text*
+<b>Bold and brash</b>
 
-<br>
+<s>Crossed out</s>
 
-**Bold and brad**
-
-<br>
-
-~~Crossed out~~
-
-<br>
-
-`Inline code`
-
-<br>
+<code>Inline code</code>
 
 > Just a normal quote
 
-<br>
-
 - [ ] No checked
 
-<br>
-
 - [x] Checked off
-
-<br>
 
 * A computer
 * A phone
 * A brain
 
-<br>
-
 1. Start with writing
 2. Then use markdown
 3. Finally, commit the file
 
-<br>
-
 [Example link](https://example.com)
-
-<br>
 
 | Column 1 | Column 2 | Column 3 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 
-<br>
-
 {% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}
+
+{% include warning.html class="success" message="<div>Example alert</div>" icon="<i class='bi bi-check-circle-fill flex-shrink-0 me-2'></i>" %}
+
+{% include warning.html class="warning" message="<div>Example alert</div>" icon="<i class='bi bi-exclamation-triangle-fill flex-shrink-0 me-2'></i>" %}
+
+{% include warning.html class="danger" message="<div>Example alert</div>" icon="<i class='bi bi-exclamation-circle-fill flex-shrink-0 me-2'></i>" %}
 
