@@ -1,2 +1,2 @@
-{{ include.textaera }}
-{{ include.script }}
+<textarea id="{{ include.id }}">{{ include.text }}</textarea>
+<script>var simplemde = new SimpleMDE({ element: document.getElementById('{{ include.id }}') });</script>
