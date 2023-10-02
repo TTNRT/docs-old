@@ -9,7 +9,7 @@
 {% include tools.html %}
 {% include sidebar.html %}
 <h1>{{ page.title }}</h1>
-<p>{{ page.last_modified_at }}</p>
+<p>Page last modified at {{ page.last_modified_at | date: '%l:%M %p' }} on {{ page.last_modified_at | date: '%m/%d/%Y' }}</p>
 <hr>
 {{ content }}
 </div>
