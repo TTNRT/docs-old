@@ -33,11 +33,11 @@ Normal Paragrpah
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
 
-{% include warning.html class="primary" message="<div>Example alert</div>" icon="<i class='bi bi-info-circle-fill flex-shrink-0 me-2'></i>" %}
+{% include warning.html class="primary" message="Example alert" icon="bi-info-circle-fill" %}
 
-{% include warning.html class="success" message="<div>Example alert</div>" icon="<i class='bi bi-check-circle-fill flex-shrink-0 me-2'></i>" %}
+{% include warning.html class="success" message="Example alert" icon="bi-check-circle-fill" %}
 
-{% include warning.html class="warning" message="<div>Example alert</div>" icon="<i class='bi bi-exclamation-triangle-fill flex-shrink-0 me-2'></i>" %}
+{% include warning.html class="warning" message="Example alert" icon="bi-exclamation-triangle-fill" %}
 
-{% include warning.html class="danger" message="<div>Example alert</div>" icon="<i class='bi bi-exclamation-circle-fill flex-shrink-0 me-2'></i>" %}
+{% include warning.html class="danger" message="Example alert" icon="bi-exclamation-circle-fill" %}
 
