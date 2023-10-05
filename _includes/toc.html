@@ -1,0 +1,14 @@
+<br />
+<div id="tablecontents">
+<h3>Table of contents</h3>
+<div>
+{{ content | toc_only }}
+</div>
+</div>
+<script>
+$( function() {
+    $( "#tablecontents" ).accordion({
+        collapsible: true
+    });
+} );
+</script>

@@ -1,10 +1,10 @@
-<div class="border-right min-vh-100">
-<div class="sidebar-heading">{{ site.data.sidebar.docs_list_title }}</div>
-<div class="list-group list-group-flush overflow-auto vh-100">
+<div class="card">
+<div class="card-header">
+{{ site.data.sidebar.docs_list_title }}
+</div>
+<div class="list-group list-group-flush">
 {% for item in site.data.sidebar.docs %}
-<a class="list-group-item list-group-item-action" href="{{ item.url }}">
-{{ item.title }}
-</a>
-{% endfor %}
-</div>  
+<a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
+{% endfor %}    
+</div>
 </div>

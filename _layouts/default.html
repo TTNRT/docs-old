@@ -9,6 +9,7 @@
 <div class="row">
 <div class="col">
 {% include sidebar.html %}
+{% include toc.html %}
 <hr />
 {% include tools.html %}
 </div>
@@ -18,14 +19,7 @@
 <hr>
 {{ content }}
 </div>
-<div class="col">
-{{ content | toc_only }}
 </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js"></script>
-<script>
-anchors.add('h2,h3,h4,h5,h6');
-</script>
 </div>
 </body>
 </html>

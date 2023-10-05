@@ -59,3 +59,27 @@ new SimpleMDE({
     spellChecker: false,
 });
 </script>
+
+<div class="border-right min-vh-100">
+<div class="sidebar-heading">{{ site.data.sidebar.docs_list_title }}</div>
+<div class="list-group list-group-flush overflow-auto vh-100">
+{% for item in site.data.sidebar.docs %}
+<a class="list-group-item list-group-item-action" href="{{ item.url }}">
+{{ item.title }}
+</a>
+{% endfor %}
+</div>  
+</div>
+
+<div class="d-flex flex-column">
+<h3>{{ site.data.sidebar.docs_list_title }}</h3>
+<ul class="nav mb-sm-auto" id="menu">
+<li class="nav-item">
+{% for item in site.data.sidebar.docs %}
+<a href="{{ item.url }}" class="nav-link">
+{{ item.title }}
+</a>
+{% endfor %}  
+</li>
+</ul>
+</div>
