@@ -83,3 +83,48 @@ new SimpleMDE({
 </li>
 </ul>
 </div>
+
+
+
+<br />
+<div id="tablecontents">
+<h3>Table of contents</h3>
+<div>
+{{ content | toc_only }}
+</div>
+</div>
+<script>
+$( function() {
+    $( "#tablecontents" ).accordion({
+        collapsible: true
+    });
+} );
+</script>
+
+{% for section in sidebar %}
+<div class="card">
+<div class="card-header">
+{{ site.data.sidebar.docs_list_title }}
+</div>
+<div class="list-group list-group-flush">
+{% for item in site.data.sidebar.docs %}
+{% if page.url == docs.url %}
+<a href="{{ item.url }}" class="list-group-item active">{{ item.title }}</a>
+{% else %}
+<a href="{{ item.url }}" class="list-group-item">{{ item.title }}</a>
+{% endif %}
+{% endfor %}    
+</div>
+</div>
+
+docs_list_title: Page 1
+docs:
+
+- title: Example Page
+  url: example-page.html
+- title: Syntax Layout
+  url: syntax.html
+- title: Contributions
+  url: contributions.html
+- title: Markdown Editor
+  url: markdowneditor.html  

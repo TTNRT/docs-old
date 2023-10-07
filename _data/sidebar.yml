@@ -1,5 +1,5 @@
-docs_list_title: Page 1
-docs:
+page1_list_title: Main
+page1:
 
 - title: Example Page
   url: example-page.html
@@ -7,5 +7,9 @@ docs:
   url: syntax.html
 - title: Contributions
   url: contributions.html
+
+page2_list_title: Tools
+page2:
+
 - title: Markdown Editor
   url: markdowneditor.html  
