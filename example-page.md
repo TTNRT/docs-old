@@ -15,9 +15,9 @@ Normal Paragrpah
 
 > Just a normal quote
 
-<p><input checked="checked" disabled="disabled" type="checkbox" />Checked</p>
+<p><input checked="checked" disabled="disabled" type="checkbox" /> Checked</p>
 
-<p><input disabled="disabled" type="checkbox" />Not checked</p>
+<p><input disabled="disabled" type="checkbox" /> Not checked</p>
 
 * A computer
 * A phone
