@@ -15,9 +15,9 @@ Normal Paragrpah
 
 > Just a normal quote
 
-- [ ] No checked
+<input disabled="disabled" checked="checked" value="Checked" type="checkbox" />
 
-- [x] Checked off
+<input disabled="disabled" value="Not checked" type="checkbox" />
 
 * A computer
 * A phone
@@ -32,6 +32,8 @@ Normal Paragrpah
 | Column 1 | Column 2 | Column 3 |
 | -------- | -------- | -------- |
 | Text     | Text     | Text     |
+
+<br />
 
 {% include warning.html class="primary" message="Example alert" icon="info-circle-fill" %}
 
