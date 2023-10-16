@@ -1,0 +1,25 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.39.0/min/vs/loader.min.js"></script>
+<script>
+require.config({
+paths: {
+vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.39.0/min/vs',
+},
+});
+
+const sourceCode = `{{ include.text }}`
+
+require(['vs/editor/editor.main'], () => {
+monaco.editor.create(document.getElementById('{{ include.id }}'), {
+value: sourceCode,
+language: '{{ include.lang }}',
+automaticLayout: true,
+// lineNumbers: 'off',
+// minimap: { enabled: false },
+padding: { top: 5, right: 5, bottom: 5, left: 5 },
+overviewRulerLanes: 0,
+overviewRulerBorder: false,
+theme: 'vs-dark',
+});
+});
+</script>
+<div id="{{ include.id }}" style="height: 200px;"></div>
