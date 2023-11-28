@@ -2,14 +2,14 @@ page1_list_title: Main
 page1:
 
 - title: Example Page
-  url: example-page.html
+  url: /main/example-page.html
 - title: Syntax Layout
-  url: syntax.html
+  url: /main/syntax.html
 - title: Contributions
-  url: contributions.html
+  url: /main/contributions.html
 
 page2_list_title: Tools
 page2:
 
 - title: Markdown Editor
-  url: markdowneditor.html  
+  url: /tools/markdowneditor.html  

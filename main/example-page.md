@@ -5,13 +5,13 @@ layout: default
 
 Normal Paragrpah
 
-<i>Side text</i>
+_Side text_
 
-<b>Bold and brash</b>
+**Bold and brash**
 
-<s>Crossed out</s>
+~~Crossed out~~
 
-<code>Inline code</code>
+`Inline code`
 
 > Just a normal quote
 
