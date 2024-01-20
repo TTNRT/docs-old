@@ -8,7 +8,7 @@
     "description": "The documentation site for TTNRT",
     "icons": [{
       "src": "/logo.png",
-      "sizes":"any",
+      "sizes":"32x32",
       "type": "image/svg+xml"
     }]
   }
