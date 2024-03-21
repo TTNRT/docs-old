@@ -15,7 +15,3 @@ exclude:
 
 # set timezone
 timezone: America/New_York
-
-algolia:
-  application_id: 'VUTR627QP3'
-  index_name: 'ttnrt-search'
